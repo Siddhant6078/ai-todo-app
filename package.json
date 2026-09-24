@@ -1,0 +1,26 @@
+{
+  "name": "ai-todo-app",
+  "version": "1.0.0",
+  "description": "AI based Todo App",
+  "license": "ISC",
+  "author": "Siddhant",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "npx drizzle-kit generate",
+    "migrate": "npx drizzle-kit migrate",
+    "studio": "npx drizzle-kit studio"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "@types/pg": "^8.23.1",
+    "drizzle-kit": "^1.0.0-rc.4",
+    "tsx": "^4.23.15"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "drizzle-orm": "^1.0.0-rc.4",
+    "pg": "^8.23.0"
+  }
+}
